@@ -19,8 +19,11 @@ const config = {
     },
     extend: {
       fontFamily: {
-        rockstar: ['Rockstar', 'sans-serif'],
+        rockstar: ['Rockstar', "sans-serif"],
         poppins: ['Poppins', 'sans-serif'],
+      },
+      backgroundImage: {
+        'custom-radial': 'radial-gradient(circle, #CE1818, #9A0404)',
       },
       colors: {
         border: "hsl(var(--border))",
@@ -31,6 +34,7 @@ const config = {
         primary: {
           DEFAULT: "#9A0404",
           light:"#A20505",
+          dark:"#881312",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {

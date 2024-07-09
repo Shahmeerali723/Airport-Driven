@@ -21,7 +21,7 @@ const NavDropDown = ({ data }: any) => {
         {data?.runs?.map((item: any, index: any) => (
           <DropdownMenuItem
             key={index}
-            className="focus:bg-orange focus:text-white p-2"
+            className="focus:bg-primary focus:text-white p-2"
           >
             <span className="flex gap-2 items-center">{item?.icon}{item?.name}</span>
           </DropdownMenuItem>
