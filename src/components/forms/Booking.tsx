@@ -78,6 +78,7 @@ const Booking = () => {
                 name={"date"}
                 type={"date"}
                 value={formData.date}
+                
 
             />
             <InputComp
