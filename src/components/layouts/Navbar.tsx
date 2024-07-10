@@ -17,16 +17,10 @@ const Navbar = () => {
     airportRuns: {
       title: "Airport Runs",
       runs: [
-        {name:"Biggin Hill Airport",icon:<BsFillAirplaneFill/>},
-        {name:"Birmingham Airport",icon:<BsFillAirplaneFill/>},
-        {name:"London City Airport",icon:<BsFillAirplaneFill/>},
-        {name:"Farnborough Airport",icon:<BsFillAirplaneFill/>},
         {name:"Gatwick Airport",icon:<BsFillAirplaneFill/>},
         {name:"Heathrow Airport",icon:<BsFillAirplaneFill/>},
+        {name:"London City Airport",icon:<BsFillAirplaneFill/>},
         {name:"Luton Airport",icon:<BsFillAirplaneFill/>},
-        {name:"Manchester Airport",icon:<BsFillAirplaneFill/>},
-        {name:"Southend Airport",icon:<BsFillAirplaneFill/>},
-        {name:"Stansted Airport",icon:<BsFillAirplaneFill/>},
       ],
     },
     stationRuns: {
@@ -37,8 +31,6 @@ const Navbar = () => {
         {name:"Victoria Station",icon:<BsTrainFrontFill/>},
         {name:"Waterloo Station",icon:<BsTrainFrontFill/>},
         {name:"King's Cross Station",icon:<BsTrainFrontFill/>},
-        {name:"Charing Cross Station",icon:<BsTrainFrontFill/>},
-        {name:"London Bridge Station",icon:<BsTrainFrontFill/>}
       ],
     },
     cruiseRuns: {
@@ -48,31 +40,21 @@ const Navbar = () => {
         {name:"Dover seaport",icon:<RiShip2Fill/>},
         {name:"Portsmouth seaport",icon:<RiShip2Fill/>},
         {name:"Southampton seaport",icon:<RiShip2Fill/>},
-        {name:"Liverpool seaport",icon:<RiShip2Fill/>},
-        {name:"Newcastle seaport",icon:<RiShip2Fill/>},
-        {name:"Other listed seaport",icon:<RiShip2Fill/>},
-        {name:"Portsmouth seaport",icon:<RiShip2Fill/>},
-        {name:"Rosyth seaport",icon:<RiShip2Fill/>},
-        {name:"Greenock seaport",icon:<RiShip2Fill/>},
-        {name:"Dundee seaport",icon:<RiShip2Fill/>},
-        {name:"Hull seaport",icon:<RiShip2Fill/>},
-        {name:"Cardiff seaport",icon:<RiShip2Fill/>},
-        {name:"Poole seaport",icon:<RiShip2Fill/>}
+        {name:"Port of London",icon:<RiShip2Fill/>},
+        {name:"Tilbury seaport",icon:<RiShip2Fill/>},
+        
       ],
     },
     specialOffers: {
       title: "Special Offers",
       runs: [
-        { name: "Cabbi Schools", icon: <FaBookOpen/> },
-        { name: "Cabbi University", icon: <FaUniversity/> },
-        { name: "Cabbi Wedding", icon: <CgRing/> },
-        { name: "Cabbi Day Hire", icon: <FaCar/> },
-        { name: "Cabbi Roadshow", icon: <FaRoad/> },
-        { name: "Cabbi Executive", icon: "" },
-        { name: "Cabbi Corporate Events", icon: "" },
-        { name: "Cabbi FlyBus", icon: "" },
-        { name: "Cabbi Cruises", icon: "" },
-        { name: "Cabbi BusHire", icon: "" },
+        { name: "Corporate Events", icon: <FaBookOpen/> },
+        { name: "Chauffeur Services", icon: <FaUniversity/> },
+        { name: "Corporate Clients", icon: <CgRing/> },
+        { name: "Executive Service", icon: <FaCar/> },
+        { name: "Meet & Greet", icon: <FaRoad/> },
+        { name: "London Tours", icon: "" },
+        { name: "Hotel Transfers", icon: "" },
       ],
     },
   };
