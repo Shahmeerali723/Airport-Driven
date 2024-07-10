@@ -9,7 +9,7 @@ import React, { useState } from 'react'
 
 
 
-const page = () => {
+const Home = () => {
 
 
 
@@ -100,4 +100,4 @@ const page = () => {
     )
 }
 
-export default page
+export default  Home 

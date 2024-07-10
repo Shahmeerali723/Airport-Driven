@@ -43,45 +43,45 @@ const Booking = () => {
 
 
     return (
-        <form className='grid grid-flow-row gap-5'>
+        <form className='grid grid-flow-row gap-3 xl:gap-5'>
             <InputComp
                 placeholder="Pickup"
-                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg" }}
+                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg lg:p-0" }}
                 name={"pickUp"}
                 value={formData.pickUp}
                 onChange={handleChange}
             />
             <InputComp
                 placeholder="Via "
-                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg" }}
+                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg lg:p-0" }}
                 name={"via"}
                 value={formData.via}
                 onChange={handleChange}
             />
             <InputComp
                 placeholder="Drop Off"
-                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg" }}
+                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg lg:p-0" }}
                 name={"dropoff"}
                 value={formData.dropoff}
                 onChange={handleChange}
             />
             <InputComp
                 placeholder="No Of Person"
-                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg" }}
+                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg lg:p-0" }}
                 name={"noOfPerson"}
                 value={formData.noOfPerson}
 
             />
             <InputComp
                 placeholder="Add Items"
-                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg" }}
+                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg lg:p-0" }}
                 name={"items"}
                 value={formData.items}
                 onChange={handleChange}
             />
             <InputComp
                 placeholder="Journey"
-                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg" }}
+                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg lg:p-0" }}
                 name={"journey"}
                 value={formData.journey}
                 onChange={handleChange}
@@ -89,7 +89,7 @@ const Booking = () => {
             <div className='flex w-full'>
             <InputComp
                 placeholder="dd/mm/yy"
-                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4]  w-full" }}
+                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4]  w-full lg:p-0" }}
                 name={"date"}
                 type={"date"}
                 value={formData.date}
@@ -99,7 +99,7 @@ const Booking = () => {
             <InputComp
                 placeholder="Journey"
                 type={"time"}
-                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4]  w-full" }}
+                classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4]  w-full lg:p-0" }}
                 name={"time"}
                 value={formData.time}
                 onChange={handleChange}
