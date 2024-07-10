@@ -72,7 +72,7 @@ const TestimonialWidget = () => {
 
                             if (index < 2) {
                                 return (
-                                    <div className={`${index % 2 === 0 ? "mt-[0]" : "mt-[-100px]"}`}>
+                                    <div key={index} className={`${index % 2 === 0 ? "mt-[0]" : "mt-[-100px]"}`}>
 
                                         <Testimonial testimonial={item} />
                                     </div>
@@ -89,7 +89,7 @@ const TestimonialWidget = () => {
                 <div className='grid grid-cols-2 gap-5 mt-36'>
                     {temArry.map((item:any, index:any)=>{
                         return(
-                            <div className={`${index % 2 === 0 ? "mt-[0]" : "mt-[-100px]"}`}>
+                            <div key={index} className={`${index % 2 === 0 ? "mt-[0]" : "mt-[-100px]"}`}>
                             <Testimonial testimonial={item}/>
                             </div>
                         )

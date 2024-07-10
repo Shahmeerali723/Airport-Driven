@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React, { ChangeEvent, useState } from 'react'
 import InputComp from '../shared/InputComp';
 import { Button } from '../ui/button';
 
@@ -28,6 +28,20 @@ const Booking = () => {
         items: "",
         journey: "",
     });
+
+
+    const handleChange = (
+        e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+      ) => {
+        const { name, value } = e.target;
+        setFormData({
+          ...formData,
+          [name]: value,
+        });
+        console.log(formData);
+      };
+
+
     return (
         <form className='grid grid-flow-row gap-5'>
             <InputComp
@@ -35,21 +49,21 @@ const Booking = () => {
                 classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg" }}
                 name={"pickUp"}
                 value={formData.pickUp}
-
+                onChange={handleChange}
             />
             <InputComp
                 placeholder="Via "
                 classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg" }}
                 name={"via"}
                 value={formData.via}
-
+                onChange={handleChange}
             />
             <InputComp
                 placeholder="Drop Off"
                 classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg" }}
                 name={"dropoff"}
                 value={formData.dropoff}
-
+                onChange={handleChange}
             />
             <InputComp
                 placeholder="No Of Person"
@@ -63,14 +77,14 @@ const Booking = () => {
                 classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg" }}
                 name={"items"}
                 value={formData.items}
-
+                onChange={handleChange}
             />
             <InputComp
                 placeholder="Journey"
                 classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4] rounded-lg" }}
                 name={"journey"}
                 value={formData.journey}
-
+                onChange={handleChange}
             />
             <div className='flex w-full'>
             <InputComp
@@ -79,7 +93,7 @@ const Booking = () => {
                 name={"date"}
                 type={"date"}
                 value={formData.date}
-                
+                onChange={handleChange}
 
             />
             <InputComp
@@ -88,7 +102,7 @@ const Booking = () => {
                 classes={{ icon: "bg-black text-white", div: "border-[#999999] bg-[#E8E4E4]  w-full" }}
                 name={"time"}
                 value={formData.time}
-
+                onChange={handleChange}
             />
             
             </div>
