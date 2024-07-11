@@ -14,11 +14,11 @@ const ClientSection = () => {
 
       <div className='container flex flex-col items-center gap-10 py-5'>
 
-        <h2 className='uppercase text-6xl font-rockstar font-extrabold text-white text-center'>
+        <h2 className='uppercase text-3xl md:text-4xl lg:text-6xl font-rockstar font-extrabold text-white text-center'>
           Our Clients
         </h2>
 
-        <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 mt-8'>
+        <div className='grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 '>
           {companyLogos.map((logo, index) => (
             <div key={index} className='bg-white flex items-center justify-center p-2 rounded-lg'>
               <Image alt='' src={logo} width={150} height={150} />

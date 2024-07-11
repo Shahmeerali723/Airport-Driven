@@ -51,9 +51,9 @@ const TestimonialWidget = () => {
     const bottomTestimonials = testimonialsData.slice(2);
 
     return (
-        <div className='w-full font-poppins py-12'>
+        <div className='w-full font-poppins py-3 sm:py-12'>
             <div className='container mx-auto px-4'>
-                <div className='text-center mb-8'>
+                <div className='text-center md:mb-8'>
                     <h3 className='text-4xl md:text-5xl uppercase font-rockstar font-extrabold text-primary'>
                         Our Happy Clients
                     </h3>
@@ -63,7 +63,7 @@ const TestimonialWidget = () => {
                 </div>
                 <div className='grid gap-10 items-center lg:grid-cols-2'>
                     <div>
-                        <div className='grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-10 mt-8 md:mt-0 pt-20 '>
+                        <div className='grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-10 mt-4 sm:mt-8 md:mt-0 md:pt-20 '>
                             {topTestimonials.map((item, index) => (
                                 <div key={index} className={`${index % 2 === 0 ? 'mt-0' : 'md:mt-[-100px]'}`}>
                                     <Testimonial testimonial={item} />
@@ -71,7 +71,7 @@ const TestimonialWidget = () => {
                             ))}
                         </div>
                     </div>
-                    <div className='grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-10 mt-8  md:mt-36'>
+                    <div className='grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-10 md:mt-20 '>
                         {bottomTestimonials.map((item, index) => (
                             <div key={index} className={`${index % 2 === 0 ? 'mt-0' : 'md:mt-[-100px]'}`}>
                                 <Testimonial testimonial={item} />

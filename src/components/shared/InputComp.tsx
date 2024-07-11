@@ -27,7 +27,7 @@ const InputComp = ({
         placeholder={placeholder}
         name={name}
         className={
-          "bg-transparent border-none focus:outline-none text-black placeholder-black w-full p-2 " +
+          "bg-transparent border-none focus:outline-none text-black placeholder-black w-full p-1 sm:p-2 text-xs sm:text-sm" +
           (classes?.input || "")
         }
       />

@@ -2,19 +2,20 @@ import React from 'react';
 import { FaPhoneAlt, FaEnvelope, FaStar } from 'react-icons/fa';
 import { FiMapPin } from 'react-icons/fi';
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+import Image from 'next/image';
 
 export default function Footer() {
     return (
         <footer className="bg-[#1E1E1E] text-white py-10">
-            <h2 className='uppercase text-3xl md:text-4xl lg:text-5xl text-center mb-10 font-rockstar font-extrabold'>
+            <h2 className='uppercase text-xl sm:text-3xl md:text-4xl lg:text-5xl text-center mb-10 font-rockstar font-extrabold'>
                 get in touch with us
             </h2>
 
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-4">
                 {/* Logo and Description */}
                 <div className="flex flex-col items-start">
-                    <h2 className="text-2xl font-bold">LOGO</h2>
-                    <p className="mt-2 text-center md:text-left">
+                <Image src={"/LOGO.png"} alt="Logo" className='bg-white p-2 rounded-lg' width={140} height={100} />
+                    <p className="mt-2 text-left  sm:text-lg md:text-left">
                         {"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."}
                     </p>
                     <div className="flex mt-4 space-x-3">
@@ -69,12 +70,20 @@ export default function Footer() {
                             </div>
                             <span>Hello@Airportdriven.Com</span>
                         </li>
+                     
                         <li className="flex items-center space-x-2">
                             <span>Review On</span>
                             <FaStar />
                             <FaStar />
                             <FaStar />
-                            <span>(30 Reviews)</span>
+                            
+                        </li>
+                        <li className="flex items-center space-x-2">
+                       
+                                <Image src={"/trustpilot.png"} alt='' height={100} width={90}/>
+                                <span>(30 Reviews)</span>
+
+                            
                         </li>
                         <li className="flex items-center space-x-2">
                             <span>Review On</span>
@@ -83,15 +92,23 @@ export default function Footer() {
                             <FaStar />
                             <FaStar />
                             <FaStar />
+                            
+                        </li>
+                        <li className="flex items-center space-x-2">
+                       
+                                <Image src={"/google.png"} alt='' height={100} width={90}/>
                             <span>(45 Reviews)</span>
+
+                            
                         </li>
+                  
                     </ul>
                 </div>
 
                 {/* Newsletter */}
                 <div className="flex flex-col items-start">
                     <h3 className="font-bold text-xl mb-4">NEWSLETTER</h3>
-                    <p className="mb-4 text-center md:text-left">
+                    <p className="mb-4 text-left">
                         {"Lorem Ipsum has been the industry's standard dummy text ever since the"}
                     </p>
                     <div className="flex flex-col gap-2">

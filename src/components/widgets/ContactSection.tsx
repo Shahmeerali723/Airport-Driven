@@ -6,25 +6,25 @@ const ContactSection = () => {
     <div className='w-full py-5'>
 
       <div className='w-[80%] mx-auto text-center p-2'>
-        <h2 className='text-5xl uppercase text-primary font-extrabold font-rockstar'>
+        <h2 className='text-2xl sm:text-3xl md:text-5xl uppercase text-primary font-extrabold font-rockstar'>
           Contact Us
         </h2>
-        <p className=''>
+        <p className='text-xs sm:text-sm md:text-lg'>
           {"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."}
         </p>
       </div>
 
-      <div className='relative mt-36'>
+      <div className='relative sm:mt-36 '>
         <Image
           alt='Map'
           src={"/map.png"}
-          className='w-full h-auto'
+          className='w-full h-auto hidden sm:block'
           layout="responsive"
           width={2000}
           height={100}
         />
 
-        <div className='absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center'>
+        <div className='sm:absolute sm:top-0 sm:left-0 sm:right-0 sm:bottom-0 flex items-center mb-10 justify-center'>
           <Contact />
         </div>
       </div>

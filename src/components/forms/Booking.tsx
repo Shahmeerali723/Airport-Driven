@@ -2,6 +2,7 @@
 import React, { ChangeEvent, useState } from 'react'
 import InputComp from '../shared/InputComp';
 import { Button } from '../ui/button';
+import Link from 'next/link';
 
 
 
@@ -108,7 +109,7 @@ const Booking = () => {
             </div>
             <div className='flex justify-center items-center'>
 
-            <Button className='w-fit  shadow-primary'>Book Now</Button>
+            <Button className='w-fit  shadow-primary text-xs  sm:text-sm'><Link href={"/quote"}>Book Now</Link></Button>
             </div>
         </form>
     )

@@ -8,6 +8,8 @@ import { RiShip2Fill } from "react-icons/ri";
 import { FaBookOpen, FaUniversity, FaCar, FaRoad } from "react-icons/fa";
 import { CgRing } from "react-icons/cg";
 import { IoIosArrowDown } from "react-icons/io";
+import { GiCrossMark } from "react-icons/gi";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -72,31 +74,44 @@ const Navbar = () => {
 
           {/* Mobile Navigation (Hamburger Menu) */}
           <div className="lg:hidden">
-          <div className="bg-primary p-2 flex rounded-md flex-col gap-2" onClick={toggleMenu}>
-              <div className="w-10 h-1 rounded-md bg-white"></div>
-              <div className="w-10 h-1 rounded-md bg-white"></div>
-              <div className="w-10 h-1 rounded-md bg-white"></div>
+            <div className="bg-primary p-2 flex rounded-md flex-col gap-1" onClick={toggleMenu}>
+              <div className={`flex rounded-md flex-col gap-1 ${isOpen ? "hidden" : ""}`}>
+
+                <div className="w-7 h-1 rounded-md bg-white"></div>
+                <div className="w-6 h-1 rounded-md bg-white"></div>
+                <div className="w-5 h-1 rounded-md bg-white"></div>
+              </div>
+              <GiCrossMark className={`text-2xl text-white ${!isOpen ? "hidden" : ""}`} />
             </div>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-6">
-            <ul className="flex items-center space-x-6">
+          <nav className="hidden lg:block ">
+            <ul className="flex items-center gap-4">
               <li className="text-gray-800 hover:text-primary transition duration-300">
-                Home
+                <Link href={"/"}> Home</Link>
               </li>
-              <NavDropDown data={data.airportRuns} />
-              <NavDropDown data={data.stationRuns} />
-              <NavDropDown data={data.cruiseRuns} />
-              <NavDropDown data={data.specialOffers} />
-              <li className="text-gray-800 hover:text-primary transition duration-300">
+              <li>
+                <NavDropDown data={data.airportRuns} />
+              </li>
+              <li>
+                <NavDropDown data={data.stationRuns} />
+              </li>
+              <li>
+                <NavDropDown data={data.cruiseRuns} />
+              </li>
+              <li>
+                <NavDropDown data={data.specialOffers} />
+              </li>
+              <li className="text-gray-800 hover:text-primary transition duration-300 ">
                 Cover Areas
               </li>
               <li className="text-gray-800 hover:text-primary transition duration-300">
                 Blog
               </li>
+              <Button className="bg-primary text-white">Signup</Button>
             </ul>
-            <Button className="bg-primary text-white">Signup</Button>
+
           </nav>
         </div>
 
@@ -106,7 +121,7 @@ const Navbar = () => {
             <div className="bg-white shadow-md mt-2 py-3 rounded-md">
               <ul className="flex flex-col items-center space-y-3">
                 <li className="text-gray-800 hover:text-primary transition duration-300">
-                  Home
+                <Link href={"/"}> Home</Link>
                 </li>
                 <li className="text-gray-800 hover:text-primary transition duration-300">
                   <NavDropDown data={data.airportRuns} />

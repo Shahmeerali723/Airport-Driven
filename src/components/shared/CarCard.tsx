@@ -17,7 +17,7 @@ const CarCard = ({...props}:any) => {
 
             </div>
             <div className='bg-custom-radial px-6 py-8 rounded-t-3xl mt-[-25px]'>
-                <div className='grid grid-flow-col items-center px-2'>
+                <div className='grid grid-flow-col items-center sm:px-2'>
                     <div className='text-white text-4xl font-poppins font-semibold'>
                         <h4>$200</h4>
                     </div>
@@ -44,7 +44,7 @@ const CarCard = ({...props}:any) => {
                         </div>
                     </div>
                 </div>
-                <div className='text-white w-fit mx-auto px-7 py-2'>
+                <div className='text-white w-fit mx-auto sm:px-7 py-2'>
                     <div className='flex gap-9'>
                         <h6 className='text-xl font-poppins font-semibold'>Estate</h6>
                         <div className='flex gap-1 items-center'>

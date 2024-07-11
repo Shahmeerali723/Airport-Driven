@@ -10,7 +10,7 @@ const OurExpertise = () => {
 
         <div className='container '>
 
-            <div className='flex justify-between p-4'>
+            <div className='grid grid-cols-2 md:grid-cols-4  gap-2 p-4 '>
 
                 <div className='flex flex-col justify-center items-center '>
                     <div className='bg-white shadow-md w-fit p-2 text-5xl rounded-lg text-primary'>

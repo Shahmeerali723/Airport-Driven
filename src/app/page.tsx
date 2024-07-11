@@ -21,7 +21,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="">
-      <div className=" mt-4 flex flex-col gap-10">
+      <div className=" flex flex-col gap-10">
         <div className="flex flex-col gap-5">
           <Hero />
           <ServicesReview />
