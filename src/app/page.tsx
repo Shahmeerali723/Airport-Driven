@@ -31,7 +31,7 @@ export default function Home() {
           <TestimonialWidget />
           <ServicesWidget />
           <StationSection />
-          <ClientSection />
+          {/* <ClientSection /> */}
           <ContactSection />
         </div>
       </div>

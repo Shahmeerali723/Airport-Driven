@@ -6,80 +6,85 @@ import StationCard from "../shared/StationCard";
 
 const railwayStations = [
   {
-    name: "Euston",
+    name: "Paddington",
     image: "/railway1.png",
-    description: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content hereir",
+    description: "Punctual transfers to Paddington Station, ensuring you never miss your train with our reliable service.",
+  },
+  {
+    name: "Euston",
+    image: "/railway2.png",
+    description: "Reliable transfers to Euston Station, prioritizing your schedule for stress-free travel across London.",
   },
   {
     name: "Waterloo",
-    image: "/railway2.png",
-    description: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content hereir",
+    image: "/railway3.png",
+    description: "Hassle-free transfers to Waterloo Station, navigating London's traffic to ensure timely arrivals and departures.",
   },
   {
     name: "London Bridge",
-    image: "/railway3.png",
-    description: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content hereir",
+    image: "/railway4.png",
+    description: "Efficient transfers to London Bridge Station, providing prompt and comfortable travel for your journey.",
   },
   {
     name: "Victoria",
-    image: "/railway4.png",
-    description: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content hereir",
-  },
-  {
-    name: "Paddington",
     image: "/railway5.png",
-    description: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content hereir",
+    description: "Reliable transfers to Victoria Station, offering comfortable and punctual journeys for both arrivals and departures.",
   },
   // Add more railway stations as needed
 ];
 
 const cruiseStations = [
   {
-    name: "Euston",
-    image: "/car1.png",
-    description: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content hereir",
+    name: "Harwich",
+    image: "/station/harwich.webp",
+    description: "Smooth transfers to Harwich Port, ensuring a relaxed start to your cruise with punctual service.",
   },
   {
-    name: "Waterloo",
-    image: "/car1.png",
-    description: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content hereir",
+    name: "Dover",
+    image: "/station/dover.webp",
+    description: "Efficient transfers to Dover Port, guaranteeing timely arrivals and stress-free journeys to or from the port.",
   },
   {
-    name: "London Bridge",
-    image: "/car1.png",
-    description: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content hereir",
+    name: "Portsmouth",
+    image: "/station/portsmouth.webp",
+    description: "Seamless transfers to Portsmouth Port, providing comfortable travel for a smooth start to your cruise.",
   },
   {
-    name: "Victoria",
-    image: "/car1.png",
-    description: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content hereir",
+    name: "Southampton",
+    image: "/station/southampton.jpg",
+    description: "Punctual transfers to Southampton Port, ensuring you arrive on time and ready for your maritime adventure.",
   },
   {
-    name: "Paddington",
-    image: "/car1.png",
-    description: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content hereir",
+    name: "Port of London",
+    image: "/station/port-of-london.jpeg",
+    description: "Efficient transfers to the Port of London, navigating busy routes for stress-free travel to or from the port.",
+  },
+  {
+    name: "Tilbury",
+    image: "/station/tibulary.jpeg",
+    description: "Reliable transfers to Tilbury Port, ensuring punctual arrivals and a seamless beginning to your cruise experience."
   },
   // Add more cruise stations as needed
 ];
 const airports = [
   {
     name: "Heathrow",
-    image: "/hethrow.jpg",
+    image: "/station/hethrow.webp",
     description: "Seamless transfers to and from Heathrow Airport with punctual service, ensuring you arrive on time for business or leisure",
   },
   {
     name: "Gatwick",
-    image: "/Gatwick.jpg",
+    image: "/station/gatwick.png",
     description: "Stress-free travel to Gatwick Airport with reliable transfers, guaranteeing a smooth journey for arrivals and departures.",
   },
   {
     name: "London Bridge",
-    image: "/london bridge.jpg",
+    image: "/station/london-bridge.jpg",
     description: "Efficient transfers to London City Airport, ensuring a seamless and comfortable start or end to your trip",
   },
   {
     name: "Luton",
-    image: "/luton.jpeg",
+    image: "/station/luton.png",
     description: "Efficient transfers to Luton Airport, providing timely and comfortable travel for both business and leisure trips.",
   },
 

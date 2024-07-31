@@ -8,62 +8,62 @@ const data = [
     {
         title: "Airport Transfer",
         desc: "Seamless and reliable transfers to and from airports in London.",
-        image: "/images/airport-transfer.jpg"
+        image: "/ourServicesCrousel/AirportTransfer.jpeg"
     },
     {
         title: "Railway Transfer",
         desc: "Efficient transfers to major railway stations in London.",
-        image: "/images/railway-transfer.jpg"
+        image: "/ourServicesCrousel/RailwayTransfer.jpeg"
     },
     {
         title: "Cruise Transfer",
         desc: "Timely pickups and drop-offs at all major cruise terminals.",
-        image: "/images/cruise-transfer.jpg"
+        image: "/ourServicesCrousel/CruiseTransfer.jpeg"
     },
     {
         title: "Meet and Greet",
         desc: "Personalized service with assistance at arrival points.",
-        image: "/images/meet-and-greet.jpg"
+        image: "/ourServicesCrousel/MeetandGreet.jpeg"
     },
     {
         title: "Corporate Events",
         desc: "Reliable transport for business meetings and conferences.",
-        image: "/images/corporate-events.jpg"
+        image: "/ourServicesCrousel/CorporateEvents.jpeg"
     },
     {
         title: "Chauffeur Service",
         desc: "Luxurious and personalized travel experience.",
-        image: "/images/chauffeur-service.jpg"
+        image: "/ourServicesCrousel/ChauffeurService.jpeg"
     },
     {
         title: "Corporate Clients",
         desc: "Tailored transportation solutions for businesses.",
-        image: "/images/corporate-clients.jpg"
+        image: "/ourServicesCrousel/CorporateClients.jpeg"
     },
     {
         title: "Executive Service",
         desc: "Premium vehicles and service for business travelers.",
-        image: "/images/executive-service.jpg"
+        image: "/ourServicesCrousel/ExecutiveService.jpeg"
     },
     {
         title: "Hotel Transfer",
         desc: "Stylish and timely transfers to hotels in London.",
-        image: "/images/hotel-transfer.jpg"
+        image: "/ourServicesCrousel/HotelTransfer.jpeg"
     },
     {
         title: "London Tour",
         desc: "Customized tours with knowledgeable drivers.",
-        image: "/images/london-tour.jpg"
+        image: "/ourServicesCrousel/LondonTour.jpeg"
     },
     {
         title: "School Transfers",
         desc: "Safe and reliable transportation for students to and from school.",
-        image: "/images/school-transfers.jpg"
+        image: "/ourServicesCrousel/SchoolTransfers.jpeg"
     },
     {
         title: "Airport Car Parking",
         desc: "Convenient and secure parking solutions at major London airports.",
-        image: "/images/airport-car-parking.jpg"
+        image: "/ourServicesCrousel/AirportCarParking.jpeg"
     }
 ];
 
