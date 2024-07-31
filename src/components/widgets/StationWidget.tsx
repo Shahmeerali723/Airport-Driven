@@ -64,18 +64,23 @@ const cruiseStations = [
 const airports = [
   {
     name: "Heathrow",
-    image: "/car1.png",
-    description: "Heathrow is one of the busiest airports in the world, known for its extensive network of international flights.",
+    image: "/hethrow.jpg",
+    description: "Seamless transfers to and from Heathrow Airport with punctual service, ensuring you arrive on time for business or leisure",
   },
   {
     name: "Gatwick",
-    image: "/car1.png",
-    description: "Gatwick is a major international airport located south of Central London, known for its convenience and efficiency.",
+    image: "/Gatwick.jpg",
+    description: "Stress-free travel to Gatwick Airport with reliable transfers, guaranteeing a smooth journey for arrivals and departures.",
   },
   {
     name: "London Bridge",
-    image: "/car1.png",
-    description: "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content hereir",
+    image: "/london bridge.jpg",
+    description: "Efficient transfers to London City Airport, ensuring a seamless and comfortable start or end to your trip",
+  },
+  {
+    name: "Luton",
+    image: "/luton.jpeg",
+    description: "Efficient transfers to Luton Airport, providing timely and comfortable travel for both business and leisure trips.",
   },
 
   // Add more cruise stations as needed

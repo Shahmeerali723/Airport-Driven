@@ -4,48 +4,49 @@ import Testimonial from '../shared/testimonial';
 const TestimonialWidget = () => {
     const testimonialsData = [
         {
-            quote: "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s",
-            name: "Lorem Ipsum",
-            title: "Is Simply Dummy Text",
+            quote: "I booked a saloon for my trip to Heathrow, and the service was impeccable. The car was clean, and the driver was professional and courteous. The journey was smooth, and I reached the airport well ahead of time.",
+            name: "John M.",
+            title: "Saloon - Excellent Service",
             image: "/user1.png",
-            rating: 3,
+            rating: 5,
         },
         {
-            quote: "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s",
-            name: "Lorem Ipsum",
-            title: "Is Simply Dummy Text",
+            quote: "Traveling with extra luggage was a breeze with the estate vehicle. The extra space was perfect for all our bags, and the ride was incredibly comfortable. Highly recommend this service for anyone with more luggage.",
+            name: "Emma R.",
+            title: "Estate - Spacious and Comfortable",
             image: "/user1.png",
-            rating: 3,
+            rating: 5,
         },
         {
-            quote: "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s",
-            name: "Lorem Ipsum",
-            title: "Is Simply Dummy Text",
+            quote: "We used the MPV for our family vacation, and it was the best choice we made. The car was spacious enough for all of us, and the driver was very patient with our kids. We had a fantastic experience.",
+            name: "Liam T.",
+            title: "MPV - Great for Families",
             image: "/user1.png",
-            rating: 3,
+            rating: 5,
         },
         {
-            quote: "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s",
-            name: "Lorem Ipsum",
-            title: "Is Simply Dummy Text",
+            quote: "Booked a transporter for a group trip, and it was excellent. The vehicle was spacious, and we had plenty of room for our luggage. The driver was friendly and knew the best routes, making our trip very enjoyable.",
+            name: "Sophia W.",
+            title: "Transporter - Ideal for Group Travel",
             image: "/user1.png",
-            rating: 3,
+            rating: 5,
         },
         {
-            quote: "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s",
-            name: "Lorem Ipsum",
-            title: "Is Simply Dummy Text",
+            quote: "The executive car was perfect for my business trip. It was luxurious and had all the amenities I needed. The driver was punctual and very professional. It was an efficient and pleasant ride to the airport.",
+            name: "Oliver H.",
+            title: "Executive - Luxurious and Efficient",
             image: "/user1.png",
-            rating: 3,
+            rating: 5,
         },
         {
-            quote: "Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever Since The 1500s",
-            name: "Lorem Ipsum",
-            title: "Is Simply Dummy Text",
+            quote: "We used the executive transporter for a corporate event, and it was outstanding. The vehicle was luxurious, and there was ample space for everyone and their luggage. The service was top-notch from start to finish.",
+            name: "Isabella P.",
+            title: "Executive Transporter - Top-Notch Service for Large Groups",
             image: "/user1.png",
-            rating: 3,
+            rating: 5,
         },
     ];
+    
 
     const topTestimonials = testimonialsData.slice(0, 2);
     const bottomTestimonials = testimonialsData.slice(2);

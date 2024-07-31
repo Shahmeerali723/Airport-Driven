@@ -7,7 +7,6 @@ import { BsFillAirplaneFill, BsTrainFrontFill } from "react-icons/bs";
 import { RiShip2Fill } from "react-icons/ri";
 import { FaBookOpen, FaUniversity, FaCar, FaRoad } from "react-icons/fa";
 import { CgRing } from "react-icons/cg";
-import { IoIosArrowDown } from "react-icons/io";
 import { GiCrossMark } from "react-icons/gi";
 import Link from "next/link";
 
@@ -16,7 +15,7 @@ const Navbar = () => {
 
   const data = {
     airportRuns: {
-      title: "Airport Runs",
+      title: "Airport Transfer",
       runs: [
         { name: "Gatwick Airport", icon: <BsFillAirplaneFill /> },
         { name: "Heathrow Airport", icon: <BsFillAirplaneFill /> },
@@ -25,7 +24,7 @@ const Navbar = () => {
       ],
     },
     stationRuns: {
-      title: "Station Runs",
+      title: "Station Transfer",
       runs: [
         { name: "Paddington Station", icon: <BsTrainFrontFill /> },
         { name: "Euston Station", icon: <BsTrainFrontFill /> },
@@ -35,7 +34,7 @@ const Navbar = () => {
       ],
     },
     cruiseRuns: {
-      title: "Cruise Runs",
+      title: "Cruise Transfer",
       runs: [
         { name: "Harwich seaport", icon: <RiShip2Fill /> },
         { name: "Dover seaport", icon: <RiShip2Fill /> },
@@ -60,7 +59,7 @@ const Navbar = () => {
   };
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(true);
   };
 
   return (
@@ -100,7 +99,7 @@ const Navbar = () => {
               <li>
                 <NavDropDown data={data.cruiseRuns} />
               </li>
-              <li>
+              <li >
                 <NavDropDown data={data.specialOffers} />
               </li>
               <li className="text-gray-800 hover:text-primary transition duration-300 ">

@@ -8,10 +8,10 @@ const Vehicle = () => {
             <div className='container mx-auto grid grid-cols-1 lg:grid-cols-2 items-center py-12 px-4 lg:px-0'>
                 <div className='p-3 flex flex-col gap-6'>
                     <h3 className='uppercase font-rockstar font-extrabold text-3xl md:text-4xl text-white'>
-                        our fleet
+                    Our Fleet
                     </h3>
                     <p className='text-base md:text-xl font-medium text-white'>
-                        {"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
+                        {"Discover the perfect vehicle for your airport transfer needs with our diverse and modern fleet. Whether you’re traveling alone or with a group, we have the ideal car to ensure a comfortable and smooth journey."}
                     </p>
                     <Button className='uppercase w-fit font-semibold bg-white text-primary'>
                         Book NOW

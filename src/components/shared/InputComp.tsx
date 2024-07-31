@@ -20,7 +20,7 @@ const InputComp = ({
       }
     >
       <input
-
+      required
         type={type || "text"}
         value={value}
         onChange={onChange}

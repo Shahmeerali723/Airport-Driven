@@ -17,24 +17,24 @@ const ServicesReview = () => {
                 </div>
 
                 <ReviewCard data={{
-                    title: "Lorem",
-                    desc: "Is Simply Dummy Text Of The Printing And Typesetting Industry.",
-                    rating: 2
+                    title: "Pickup Service",
+                    desc: "Timely and reliable pickups ensuring you reach your destination on schedule.",
+                    image: "/car-service.png",
                 }} />
                 <ReviewCard data={{
-                    title: "Lorem",
-                    desc: "Is Simply Dummy Text Of The Printing And Typesetting Industry.",
-                    rating: 2
+                    title: "Easy Bookings",
+                    desc: "Quick and hassle-free booking with our user-friendly online system.",
+                    image:"/booking.png"
                 }} />
                 <ReviewCard data={{
-                    title: "Lorem",
-                    desc: "Is Simply Dummy Text Of The Printing And Typesetting Industry.",
-                    rating: 2
+                    title: "24/7 Customer Care",
+                    desc: "Round-the-clock customer support to assist you anytime.",
+                    image:"/customer-support.png"
                 }} />
                 <ReviewCard data={{
-                    title: "Lorem",
-                    desc: "Is Simply Dummy Text Of The Printing And Typesetting Industry.",
-                    rating: 2
+                    title: "Best Price Guaranteed",
+                    desc: "Competitive rates offering the best value for airport transfers in London.",
+                    image:"/reward.png"
                 }} />
             </div>
 
